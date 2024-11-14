@@ -1,4 +1,4 @@
-output "mock" {
-  description = "Mock output example for the Cloud Posse Terraform component template"
-  value       = local.enabled ? "hello ${basename(abspath(path.module))}" : ""
+output "lf_tags" {
+  description = "List of LF tags created."
+  value       = module.lakeformation.lf_tags
 }
