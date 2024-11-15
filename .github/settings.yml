@@ -2,7 +2,7 @@
 _extends: .github
 repository:
   name: aws-lakeformation
-  description: This component is responsible for provisioning Amazon Lake Formation resources
+  description: "This component is responsible for provisioning Amazon Lake Formation resources"
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
 
