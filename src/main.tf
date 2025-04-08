@@ -21,7 +21,7 @@ locals {
 
 module "lakeformation" {
   source  = "cloudposse/lakeformation/aws"
-  version = "0.1.0"
+  version = "1.0.0"
 
   enabled = module.this.enabled
 
