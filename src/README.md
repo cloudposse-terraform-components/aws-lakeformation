@@ -8,7 +8,6 @@ tags:
 # Component: `lakeformation`
 
 This component is responsible for provisioning Amazon Lake Formation resources.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -63,7 +62,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -131,12 +133,17 @@ components:
 | Name | Description |
 |------|-------------|
 | <a name="output_lf_tags"></a> [lf\_tags](#output\_lf\_tags) | List of LF tags created. |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/lakeformation) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-lakeformation&utm_content=)
+
